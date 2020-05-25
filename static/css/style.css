@@ -1,0 +1,173 @@
+HTML,
+BODY {
+  height: 100%;
+  width: 100%;
+  
+}
+
+.webcoderskull {
+  font-size: 0.5em;
+}
+
+svg {
+  position: absolute;
+  width: 50%;
+  height: 50%; 
+  background-size: 0.12em 50%;
+  font: 20em/1 Arial;
+}
+
+.webcoderskull-1 {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 7% 28%;
+  stroke-width: 7px;
+  /* -webkit-animation: stroke-offset 5s infinite linear;
+          animation: stroke-offset 5s infinite linear; */
+}
+.webcoderskull-1:nth-child(1) {
+  stroke: #360745;
+  stroke-dashoffset: 7%;
+}
+.webcoderskull-1:nth-child(2) {
+  stroke: #d61c59;
+  stroke-dashoffset: 14%;
+}
+.webcoderskull-1:nth-child(3) {
+  stroke: #e7d84b;
+  stroke-dashoffset: 21%;
+}
+.webcoderskull-1:nth-child(4) {
+  stroke: #efeac5;
+  stroke-dashoffset: 28%;
+}
+.webcoderskull-1:nth-child(5) {
+  stroke: #1b8798;
+  stroke-dashoffset: 35%;
+}
+
+@-webkit-keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;
+  }
+}
+
+@keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;
+  }
+}
+
+
+
+/*Header*/
+.login{
+  background-color: aliceblue;
+  width: 50%;
+  height: 50%; 
+  left: 40%;
+  top: 0;
+  bottom: 0;
+	right: 0;	
+  margin: auto;
+  position: absolute; 
+  height: 250px;
+  text-align: center;
+
+}
+.external{
+	top:40%;
+	bottom: 0;
+	left: 40%;
+	right: 0;	
+  margin: auto;
+  position: absolute; 
+  height: 150px;
+  text-align: center; 
+} 
+.build{
+  background-color: aliceblue;
+  width: 50%;
+  height:95%; 
+  left: 40%;
+  top: 0;
+  bottom: 0;
+	right: 0;	
+  margin: auto;
+  position: absolute; 
+
+}
+.go-btn,.text{
+  display: inline;
+}
+.second-btn{
+  display: inline-block;
+  margin:10px;/* space between buttons */
+  background: #8842d5;/* #1b8798; /* background color */
+  color: #000000; /* text color */
+  font-size: 1.8em;
+  font-family: ‘Georgia’, serif;
+  font-style: bold;
+  border-radius: 10px; /* rounded corners */
+  padding: 4px 16px; /* space around text */
+
+
+}
+.second-btn:hover{
+  background: #360745;
+  color: #c1e1e0;
+}
+@media only screen and (max-width: 768px) {
+  .demo-1 .main-title {
+    font-size: 3em;
+  }
+} 
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-image: url(../7-3-4-1024x527.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.text-inp{
+  border: none;
+  border-bottom: 4px solid #8842d5;  
+  width: 80%;
+  height: 150px;
+  padding-left: 0.8rem;
+  box-shadow: 7px 7px 5px 7px #8842d5;  
+}
